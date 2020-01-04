@@ -1,0 +1,383 @@
+                                                             :root {
+                                                            --primary-color: : red;
+                                                        }
+                                                        
+                                                        * {
+                                                            box-sizing: border-box;
+                                                            margin: 0;
+                                                            padding: 0;
+                                                        }
+                                                        
+                                                        body {
+                                                            font-family: sans-serif;
+                                                            background: black;
+                                                            color: white;
+                                                        }
+                                                        /* 
+.container {
+width: 80%;
+margin: 0;
+justify-content: center;
+align-content: center;
+align-items: center;
+align-self: center;
+} */
+                                                        
+                                                        ul {
+                                                            list-style: none;
+                                                        }
+                                                        
+                                                        h1,
+                                                        h2,
+                                                        h3,
+                                                        h4 {
+                                                            color: white;
+                                                        }
+                                                        
+                                                        a {
+                                                            text-decoration: none;
+                                                            color: white;
+                                                        }
+                                                        
+                                                        p {
+                                                            margin: 0.5rem 0;
+                                                        }
+                                                        
+                                                        img {
+                                                            width: 100%;
+                                                        }
+                                                        
+                                                        .showcase {
+                                                            width: 100%;
+                                                            height: 93vh;
+                                                            position: relative;
+                                                            background: url(../img/hero.jpg) no-repeat center center/cover;
+                                                        }
+                                                        
+                                                        .showcase-top {
+                                                            position: relative;
+                                                            height: 90px;
+                                                        }
+                                                        
+                                                        .showcase-top img {
+                                                            width: 170px;
+                                                            position: absolute;
+                                                            left: 0;
+                                                            margin-left: 10px;
+                                                        }
+                                                        
+                                                        .showcase-top a {
+                                                            position: absolute;
+                                                            right: 0;
+                                                            top: 50%;
+                                                            transform: translate(-50%, -50%);
+                                                        }
+                                                        
+                                                        .showcase-content {
+                                                            position: relative;
+                                                            margin: auto;
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            text-align: center;
+                                                            margin-top: 60px;
+                                                        }
+                                                        
+                                                        .showcase-content h1 {
+                                                            font-size: 3rem;
+                                                            font-kerning: 6rem;
+                                                        }
+                                                        
+                                                        .showcase-content p {
+                                                            font-size: 1.5rem;
+                                                        }
+                                                        
+                                                        section .box {
+                                                            border-top-style: solid;
+                                                            border-top-color: darkslategrey;
+                                                        }
+                                                        
+                                                        section .box-img,
+                                                        .box2-img,
+                                                        .box3-img {
+                                                            width: 50%;
+                                                        }
+                                                        
+                                                        .box {
+                                                            border-top-style: solid;
+                                                            border-top-color: rgb(46, 51, 51);
+                                                            border-top-width: 1rem;
+                                                            display: flex;
+                                                            flex-direction: column(2 1fr);
+                                                            align-items: center;
+                                                            text-align: left;
+                                                            justify-content: space-around;
+                                                            padding-bottom: 50px;
+                                                        }
+                                                        
+                                                        .box1 {
+                                                            float: right;
+                                                        }
+                                                        
+                                                        .box1 h1 {
+                                                            font-size: 3rem;
+                                                        }
+                                                        
+                                                        .box1 h3 {
+                                                            font-size: 1.5rem;
+                                                            font-weight: 200;
+                                                        }
+                                                        
+                                                        .box-img {
+                                                            float: left;
+                                                        }
+                                                        
+                                                        .box2 {
+                                                            float: right;
+                                                        }
+                                                        
+                                                        .box2 h1 {
+                                                            font-size: 3rem;
+                                                        }
+                                                        
+                                                        .box2 h3 {
+                                                            font-size: 1.5rem;
+                                                            font-weight: 200;
+                                                        }
+                                                        
+                                                        .box2-img {
+                                                            float: left;
+                                                        }
+                                                        
+                                                        .box3 {
+                                                            float: right;
+                                                        }
+                                                        
+                                                        .box3 h1 {
+                                                            font-size: 3rem;
+                                                        }
+                                                        
+                                                        .box3 h3 {
+                                                            font-size: 1.5rem;
+                                                            font-weight: 200;
+                                                        }
+                                                        
+                                                        .box3-img {
+                                                            float: left;
+                                                        }
+                                                        
+                                                        .fq {
+                                                            border-top-style: solid;
+                                                            border-top-color: rgb(46, 51, 51);
+                                                            border-top-width: 0.5rem;
+                                                            margin-bottom: 3rem;
+                                                            border-bottom-style: solid;
+                                                            border-bottom-color: rgb(46, 51, 51);
+                                                            border-bottom-width: 0.5rem;
+                                                            padding-bottom: 3rem;
+                                                        }
+                                                        
+                                                        .fq-head h1 {
+                                                            font-size: 3rem;
+                                                            margin-top: 3rem;
+                                                            margin-bottom: 3rem;
+                                                            text-align: center;
+                                                        }
+                                                        
+                                                        .drop1 {
+                                                            display: grid;
+                                                            grid-template-rows: repeat(1fr);
+                                                            grid-row-gap: 1rem;
+                                                            justify-content: start;
+                                                            justify-items: center;
+                                                            justify-self: center;
+                                                            text-align: start;
+                                                            margin: auto;
+                                                            width: 65%;
+                                                            background-color: rgb(44, 48, 48);
+                                                        }
+                                                        
+                                                        .drop h3 {
+                                                            font-size: 1.8rem;
+                                                            font-weight: light;
+                                                            padding: 2rem;
+                                                            grid-gap: 2rem;
+                                                        }
+                                                        
+                                                        .footer {
+                                                            width: 70%;
+                                                            overflow: auto;
+                                                            padding: 1rem;
+                                                            margin: auto;
+                                                            justify-content: center;
+                                                            justify-items: center;
+                                                            justify-self: center;
+                                                        }
+                                                        
+                                                        .colum a,
+                                                        li,
+                                                        .footer p a {
+                                                            color: #999;
+                                                            font-size: 0.9rem;
+                                                            list-style: none;
+                                                        }
+                                                        
+                                                        .colum a:hover {
+                                                            text-decoration: underline;
+                                                        }
+                                                        
+                                                        .colum {
+                                                            display: grid;
+                                                            grid-template-columns: repeat(4, 1fr);
+                                                            grid-gap: 3rem;
+                                                        }
+                                                        
+                                                        .colum li {
+                                                            line-height: 2rem;
+                                                        }
+                                                        /* buttons */
+                                                        
+                                                        .btn {
+                                                            display: inline-block;
+                                                            background: red;
+                                                            color: white;
+                                                            padding: 0.4rem 1.3rem;
+                                                            font-size: 1rem;
+                                                            text-align: center;
+                                                            border: none;
+                                                            cursor: pointer;
+                                                            margin-right: 0.5rem;
+                                                            outline: none;
+                                                            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
+                                                            border-radius: 2px;
+                                                        }
+                                                        
+                                                        .btn:hover {
+                                                            opacity: 0.9;
+                                                        }
+                                                        
+                                                        .btn-rounded {
+                                                            border-radius: 5px;
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        .btn-xl {
+                                                            font-size: 1.5rem;
+                                                            padding: 1rem 1.5rem;
+                                                            text-transform: uppercase;
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        .boxbtn {
+                                                            font-size: 1.5rem;
+                                                            text-transform: uppercase;
+                                                            background: none;
+                                                            color: white;
+                                                            padding: 0.5rem;
+                                                            margin-top: 2rem;
+                                                            cursor: pointer;
+                                                        }
+                                                        
+                                                        @media (max-width: 960px) {
+                                                            .showcase {
+                                                                height: 70vh;
+                                                            }
+                                                            .showcase-content h1 {
+                                                                font-size: 2rem;
+                                                                line-height: 1;
+                                                            }
+                                                            .showcase-content p {
+                                                                font-size: 1rem;
+                                                            }
+                                                            .btn-xl {
+                                                                font-size: 1rem;
+                                                                padding: 0.5rem 1rem;
+                                                                text-transform: uppercase;
+                                                                cursor: pointer;
+                                                                margin-top: 1rem;
+                                                            }
+                                                            .box {
+                                                                border-top-style: solid;
+                                                                border-top-color: rgb(46, 51, 51);
+                                                                border-top-width: 0.5rem;
+                                                                display: block;
+                                                                flex-direction: column( 1fr);
+                                                                align-items: center;
+                                                                text-align: center;
+                                                                justify-items: center;
+                                                                justify-self: center;
+                                                                justify-content: space-around;
+                                                                padding-bottom: 50px;
+                                                            }
+                                                            .box1 h1 {
+                                                                font-size: 1rem;
+                                                                margin-top: 2rem;
+                                                            }
+                                                            .box1 {
+                                                                float: none;
+                                                            }
+                                                            .box2 {
+                                                                float: none;
+                                                            }
+                                                            .box3 {
+                                                                float: none;
+                                                            }
+                                                            .box1-img {
+                                                                float: none;
+                                                            }
+                                                            .box2-img {
+                                                                float: none;
+                                                            }
+                                                            .box3-img {
+                                                                float: none;
+                                                            }
+                                                            .box1 h3 {
+                                                                font-size: 0.5rem;
+                                                            }
+                                                            .box2 h1 {
+                                                                display: none;
+                                                                font-size: 1rem;
+                                                                margin-top: 2rem;
+                                                            }
+                                                            .box2 h3 {
+                                                                font-size: 0.5rem;
+                                                            }
+                                                            .box3 h1 {
+                                                                font-size: 1rem;
+                                                                margin-top: 2rem;
+                                                            }
+                                                            .box3 h3 {
+                                                                font-size: 0.5rem;
+                                                            }
+                                                            section .box-img,
+                                                            .box2-img,
+                                                            .box3-img {
+                                                                width: 100%;
+                                                            }
+                                                            .fq-head h1 {
+                                                                font-size: 1.5rem;
+                                                                margin-top: 0.5rem;
+                                                                margin-bottom: 0.5rem;
+                                                                text-align: center;
+                                                            }
+                                                            .drop h3 {
+                                                                font-size: 1rem;
+                                                                font-weight: light;
+                                                                padding: 0.5rem;
+                                                                grid-gap: 0.5rem;
+                                                            }
+                                                            .colum {
+                                                                display: grid;
+                                                                grid-template-columns: repeat(2, 1fr);
+                                                                grid-gap: 2rem;
+                                                            }
+                                                            .boxbtn {
+                                                                font-size: 0.5rem;
+                                                                text-transform: uppercase;
+                                                                background: none;
+                                                                color: white;
+                                                                padding: 0.5rem;
+                                                                cursor: pointer;
+                                                                width: 70%;
+                                                            }
